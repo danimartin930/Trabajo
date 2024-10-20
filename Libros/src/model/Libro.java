@@ -1,5 +1,4 @@
 package model;
-import model.Autor;
 
 public class Libro {
     private Autor autor;
@@ -36,10 +35,4 @@ public class Libro {
         return precio;
     }
 
-    @Override
-    public String toString() {
-        return String.format("%-20s | %-15d | %-25s | %-10s | %-10d | %-10.2f €", 
-            titulo, ano_publicacion, autor.toString(), 
-            (autor.isPremioPlaneta() ? "Sí" : "No"), num_paginas, precio);
-    }       
 }

@@ -21,7 +21,7 @@ public class Autor {
 
     @Override
     public String toString() {
-        return getNombreCompleto() + (premioPlaneta ? " (Premio Planeta)" : "");
+        return getNombreCompleto() + (premioPlaneta ? " " : "");
     }
 
     
